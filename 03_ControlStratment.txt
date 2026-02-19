@@ -1,0 +1,101 @@
+=============================
+C LANGUAGE – CHAPTER 3
+CONTROL STATEMENTS (COMPLETE)
+=============================
+
+WHAT ARE CONTROL STATEMENTS?
+Control statements program ka flow control karte hain.
+Ye decide karte hain code kaunsa chalega aur kitni baar chalega.
+
+DECISION MAKING STATEMENTS
+---------------------------------
+if statement
+Condition true hoga tabhi block execute hoga
+
+if-else
+True me ek block, false me dusra block
+
+else-if ladder
+Multiple conditions check karne ke liye
+
+switch statement
+Ek variable ko multiple constant values se compare karta hai
+Switch sirf integral values (int, char) ke saath kaam karta hai
+
+LOOPING STATEMENTS
+--------------------------
+for loop
+Jab iterations ka count pata ho
+
+while loop
+Condition based repetition
+
+do-while loop
+Kam se kam ek baar execute hoga
+
+Difference:
+while pehle condition check karta hai
+do-while baad me condition check karta hai
+
+NESTED LOOPS
+
+Loop ke andar loop
+Mostly pattern printing me use hota hai
+
+INFINITE LOOP
+
+for(;;)
+while(1)
+
+JUMP STATEMENTS
+
+break → loop exit
+continue → current iteration skip
+goto → direct jump
+return → function exit
+
+INTERVIEW THEORY QUESTIONS
+-------------------------------
+while aur do-while me difference?
+
+Switch me break na lagaye to kya hoga?
+
+Infinite loop kya hota hai?
+
+break aur continue me difference?
+
+Switch float pe kyun nahi chalta?
+
+MCQs (ANSWERS NAHI DIYE)
+
+Kaunsa loop at least ek baar execute hota hai?
+A) for
+B) while
+C) do-while
+D) nested
+
+continue kya karta hai?
+A) Loop stop
+B) Current iteration skip
+C) Function exit
+D) Program stop
+
+switch kis type ke saath kaam karta hai?
+A) float
+B) double
+C) int
+D) string
+
+for loop me kitne parts hote hain?
+A) 2
+B) 3
+C) 4
+D) 5
+
+break ka use hota hai:
+A) Skip
+B) Exit loop
+C) Restart
+D) Return
+
+============================================================
