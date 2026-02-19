@@ -1,0 +1,134 @@
+=============================
+C LANGUAGE – CHAPTER 2
+DATA TYPES (COMPLETE)
+=============================
+
+WHAT IS DATA TYPE?
+Data type batata hai:
+--------------------------
+Kaunsa type ka value store hoga
+
+Kitni memory lagegi
+
+Kya range hoga
+
+Kaunse operations allowed hain
+
+BASIC DATA TYPES
+-------------------------
+char
+-----
+1 byte
+
+Range: -128 to 127
+
+Single character store karta hai
+
+int
+---------
+Usually 4 bytes
+
+Whole numbers store karta hai
+
+float
+--------
+4 bytes
+
+Decimal values store karta hai
+
+Approx 6 digit precision
+
+double
+-------------
+8 bytes
+
+High precision decimal
+
+Approx 15 digit precision
+
+TYPE MODIFIERS
+---------------
+short int
+long int
+long long int
+signed
+unsigned
+
+unsigned int sirf positive values store karega.
+
+DERIVED DATA TYPES
+-------------------
+Array
+Pointer
+Function
+
+USER DEFINED DATA TYPES
+----------------------------
+struct
+union
+enum
+typedef
+
+TYPE CONVERSION
+------------------
+Implicit conversion
+Compiler automatically convert karta hai
+
+Explicit conversion
+Manual casting
+Example:
+float x = (float)10/3;
+
+OVERFLOW
+--------------
+Jab value range ke bahar chali jaye
+
+Example:
+unsigned char x = 255;
+x = x + 1;
+
+INTERVIEW THEORY QUESTIONS
+--------------------------------
+1.float aur double me difference kya hai?
+
+2.signed aur unsigned me difference?
+
+3.Overflow kya hota hai?
+
+4.typedef ka use kya hai?
+
+5.sizeof operator kya karta hai?
+
+MCQs (ANSWERS NAHI DIYE GAYE)
+-----------------------------------
+1.double ka size generally kitna hota hai?
+A) 2 bytes
+B) 4 bytes
+C) 8 bytes
+D) 16 bytes
+
+2.unsigned int store karta hai:
+A) Negative
+B) Positive
+C) Dono
+D) None
+
+3.Overflow kab hota hai?
+A) Memory leak
+B) Range exceed
+C) Loop infinite
+D) Pointer null
+
+4.Kaunsa derived data type hai?
+A) int
+B) float
+C) array
+D) char
+
+5.sizeof operator return karta hai:
+A) Address
+B) Value
+C) Memory size
+D) Data type
+
+========================================================
