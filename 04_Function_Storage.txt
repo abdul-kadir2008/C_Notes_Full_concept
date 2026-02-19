@@ -1,0 +1,94 @@
+=============================
+C LANGUAGE – CHAPTER 4
+FUNCTIONS & STORAGE CLASSES
+=============================
+
+FUNCTION KYA HAI?
+Function ek block of code hai jo specific task karta hai.
+
+FUNCTION KE TYPES
+
+No argument no return
+
+Argument no return
+
+No argument return
+
+Argument return
+
+RECURSION
+
+Function khud ko call kare to recursion kehte hain.
+Example: factorial
+
+Recursion stack use karta hai.
+
+STORAGE CLASSES
+
+auto
+Default local variable
+
+static
+Value retain karta hai between function calls
+
+extern
+Global variable reference
+
+register
+CPU register me store karne ka request
+
+STACK FRAME
+
+Jab function call hota hai:
+
+Local variables stack me store hote hain
+
+Parameters stack me store hote hain
+
+Return address stack me store hota hai
+
+INTERVIEW THEORY QUESTIONS
+
+static variable ka behaviour?
+
+extern ka use kya hai?
+
+Recursion ka disadvantage?
+
+Stack frame kya hota hai?
+
+main void ho sakta hai?
+
+MCQs (ANSWERS NAHI DIYE)
+
+Recursion kis memory ka use karta hai?
+A) Heap
+B) Stack
+C) Data
+D) Register
+
+static variable store hota hai:
+A) Stack
+B) Heap
+C) Data segment
+D) Code segment
+
+extern ka use hota hai:
+A) Local
+B) Global reference
+C) Constant
+D) Pointer
+
+register variable kaha store hota hai?
+A) RAM
+B) CPU register
+C) Heap
+D) Stack
+
+Function prototype hota hai:
+A) Definition
+B) Declaration
+C) Call
+D) Loop
+
+============================================================
