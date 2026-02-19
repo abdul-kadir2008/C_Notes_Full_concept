@@ -1,0 +1,80 @@
+=============================
+C LANGUAGE – CHAPTER 5
+ARRAYS & STRINGS
+=============================
+
+ARRAY KYA HAI?
+Same data type ke elements ka collection.
+Contiguous memory me store hota hai.
+
+1D ARRAY
+Linear form
+
+2D ARRAY
+Matrix form
+Memory row-major order me store hota hai
+
+STRING
+
+Character array ending with '\0'
+
+Example:
+char name[] = "Kadir";
+
+STRING FUNCTIONS
+
+strlen()
+strcpy()
+strcmp()
+strcat()
+
+ARRAY VS POINTER
+
+Array name constant pointer hota hai
+Pointer ka address change ho sakta hai
+
+INTERVIEW THEORY QUESTIONS
+
+String null character kyun use karta hai?
+
+Array memory kaise store hota hai?
+
+Array aur pointer me difference?
+
+2D array memory layout?
+
+String literal modify kar sakte hain?
+
+MCQs (ANSWERS NAHI DIYE)
+
+String end hota hai:
+A) \n
+B) \t
+C) \0
+D) NULL
+
+Array index start hota hai:
+A) 1
+B) 0
+C) -1
+D) 2
+
+strcmp return karta hai:
+A) length
+B) 0 if equal
+C) address
+D) char
+
+2D array store hota hai:
+A) Column major
+B) Row major
+C) Random
+D) Reverse
+
+Array memory hoti hai:
+A) Contiguous
+B) Random
+C) Heap only
+D) Register
+
+============================================================
