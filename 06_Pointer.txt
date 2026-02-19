@@ -1,0 +1,83 @@
+=============================
+C LANGUAGE – CHAPTER 6
+POINTERS (ADVANCED)
+=============================
+
+POINTER KYA HAI?
+Pointer variable address store karta hai.
+
+Example:
+int x = 10;
+int *p = &x;
+
+POINTER ARITHMETIC
+
+p + 1 → next memory location
+
+NULL POINTER
+
+Pointer jo kisi valid address ko point nahi karta
+
+DANGLING POINTER
+
+Freed memory ko point kare
+
+VOID POINTER
+
+Generic pointer
+Kisi bhi type ka address store kar sakta hai
+
+DYNAMIC MEMORY
+
+malloc()
+calloc()
+realloc()
+free()
+
+Memory heap se allocate hoti hai
+
+INTERVIEW THEORY QUESTIONS
+
+malloc aur calloc me difference?
+
+Dangling pointer kya hota hai?
+
+Double pointer kya hota hai?
+
+Pointer arithmetic kaise kaam karta hai?
+
+Pointer aur array me difference?
+
+MCQs (ANSWERS NAHI DIYE)
+
+malloc memory allocate karta hai:
+A) Stack
+B) Heap
+C) Data
+D) Register
+
+free ka use hota hai:
+A) Allocate
+B) Delete pointer
+C) Release memory
+D) Clear array
+
+Void pointer store karta hai:
+A) int only
+B) float only
+C) Any address
+D) None
+
+Dangling pointer kab hota hai?
+A) Pointer null
+B) Memory free but pointer used
+C) Local variable
+D) Array declare
+
+sizeof(int*) depend karta hai:
+A) int size
+B) Architecture
+C) Value
+D) Variable
+
+============================================================
